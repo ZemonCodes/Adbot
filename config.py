@@ -3,13 +3,13 @@
 #   Get API_ID & API_HASH from: https://my.telegram.org
 # ══════════════════════════════════════════════════
 
-API_ID   = 12345678
-API_HASH = "your_api_hash_here"
+API_ID   = 31857751
+API_HASH = "8a661cf5c52ac0c17d66264d6693c7d4"
 
 # ── Delay Settings ────────────────────────────────
 DELAY_MIN   = 120   # Min seconds between each group (2 min)
-DELAY_MAX   = 300   # Max seconds between each group (5 min)
-CYCLE_DELAY = 1800  # Seconds after full cycle (30 min)
+DELAY_MAX   = 250   # Max seconds between each group (5 min)
+CYCLE_DELAY = 900  # Seconds after full cycle (30 min)
 
 # ══════════════════════════════════════════════════
 #   ACCOUNTS — Har account ka alag config
@@ -28,25 +28,37 @@ CYCLE_DELAY = 1800  # Seconds after full cycle (30 min)
 
 ACCOUNTS = [
     {
-        "session":        "account1",
-        "phone":          "+91XXXXXXXXXX",
-        "forward_from":   "@yourchannel1",   # Account 1 ka alag ad
-        "forward_msg_id": [123, 124, 125],  # Multiple ads — rotate honge
+        "session":        "whyzemom",
+        "phone":          "+13209613081",
+        "forward_from":   "@zemonserves",   # Account 1 ka alag ad
+        "forward_msg_id": [4, 5],  # Multiple ads — rotate honge
         "groups": [
-            "@group1",
-            "@group2:15",
-            "-1001234567890",
+            "@foruming:15",
+            "@marketogs:127871",
+            "@texted:24",
+            "@celismarket:92",
+            "@useanmm8266",
+            "@sectormarket:24",
+            "@porkmarket:15",
+            "@credibles:2",
+            "-1003594189213:17",
         ],
     },
     {
-        "session":        "account2",
-        "phone":          "+91YYYYYYYYYY",
-        "forward_from":   "@yourchannel2",   # Account 2 ka alag ad
-        "forward_msg_id": [456, 457],     # Multiple ads — rotate honge
+        "session":        "Cursedzemon",
+        "phone":          "+15858332363",
+        "forward_from":   "@zemonserves",   # Account 2 ka alag ad
+        "forward_msg_id": [4, 5],     # Multiple ads — rotate honge
         "groups": [
-            "@group3",
-            "-1009876543210:57",
-            "https://t.me/+privateHash",
+            "@foruming:15",
+            "@marketogs:127871",
+            "@texted:24",
+            "@celismarket:92",
+            "@useanmm8266",
+            "@sectormarket:24",
+            "@porkmarket:15",
+            "@credibles:2",
+            "-1003594189213:17",
         ],
     },
 ]
